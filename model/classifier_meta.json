@@ -1,0 +1,32 @@
+{
+ "trained_at": "2026-11-03T05:03:59",
+ "classes": [
+  "INR_10",
+  "INR_100",
+  "INR_20",
+  "INR_200",
+  "INR_2000",
+  "INR_50",
+  "INR_500",
+  "TRY_10",
+  "TRY_100",
+  "TRY_20",
+  "TRY_200",
+  "TRY_5",
+  "TRY_50",
+  "USD_1",
+  "USD_10",
+  "USD_100",
+  "USD_2",
+  "USD_5",
+  "USD_50"
+ ],
+ "img_size": [
+  224,
+  224
+ ],
+ "preprocessing": "rgb uint8 -> float32 -> bilinear resize -> in-graph resnet50 caffe preprocess",
+ "val_accuracy": 0.9767072525145579,
+ "images_train": 7554,
+ "images_val": 1889
+}

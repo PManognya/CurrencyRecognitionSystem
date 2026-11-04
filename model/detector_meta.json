@@ -1,0 +1,17 @@
+{
+ "trained_at": "2026-11-03T03:45:44",
+ "auc": 0.9944027991665911,
+ "precision": 0.9977307110438729,
+ "recall": 0.8677631578947368,
+ "false_positive_rate": 0.0051635111876075735,
+ "threshold_evaluated": 0.8,
+ "suggested_threshold": 0.7362642884254456,
+ "positives": 7600,
+ "negatives": 2906,
+ "composites": 1000,
+ "backbone": "cnn",
+ "img_size": [
+  224,
+  224
+ ]
+}

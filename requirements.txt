@@ -1,0 +1,11 @@
+tensorflow>=2.16,<2.22
+numpy
+pillow
+matplotlib
+scikit-learn
+streamlit>=1.30
+opencv-python
+pandas
+kagglehub
+# only needed for prepare_negatives.py (preinstalled on Colab):
+# tensorflow-datasets

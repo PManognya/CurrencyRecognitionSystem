@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Secrets
+.env
+**/.env
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Cache and temporary files
+cache/
+**/cache/
+.DS_Store
